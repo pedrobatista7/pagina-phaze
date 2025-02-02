@@ -8,19 +8,8 @@
     font-weight: 500;
 }
 
-ul li a {
-    color:#D9D9D9;
-    text-decoration: none;
-    transition: 0.3s;
-}
-ul li a:hover{
-    opacity: 0.2 ;
-}
-.logo{
-    height: 50px;
-    align-items: center;
-    cursor: pointer;
-    padding-top: 3px;
+body{
+    background-color: #737373
 }
 
 nav{
@@ -37,6 +26,7 @@ nav{
  .nav-list{
     list-style: none;
     display: flex;
+    gap: 40px;
  }
 
  .nav-list li {
@@ -44,17 +34,36 @@ nav{
     margin-left: 32px;
  }
 
+ ul li a {
+    color:#D9D9D9;
+    text-decoration: none;
+    transition: 0.3s;
+}
+ul li a:hover{
+    opacity: 0.2 ;
+}
+.logo{
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 3px;
+}
+
  button {
     width: 140px;
-    padding: 15px;
+    height: 40px;
     border: none;
     border-radius: 30px;
-    transition: 0.3s;
+    transition: 0.4s;
     letter-spacing: 2px;
-    font-weight: 900;
+    font-weight: 800;
     text-transform: uppercase;
+    align-items: center;
+    cursor: pointer;
  }
  button:hover{
-    background-color:#A6A6A6 ;
-    color:#0D0D0D ;
+    background-color:#0D0D0D ;
+    color: #D9D9D9;
+    outline:2px solid gray;
+     
  }

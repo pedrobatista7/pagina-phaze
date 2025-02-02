@@ -3,20 +3,7 @@
     height: 92vh;
 }
 
-section #cta #image-car .car {
+section {
 
     width: 100px;
-}
-#image-car {
-    display: flex;
-    justify-content: center; /* Centraliza a imagem horizontalmente */
-    align-items: center; /* Centraliza a imagem verticalmente */
-    width: 100%; /* Garante que a div ocupe toda a largura disponível */
-    margin-top: 20px; /* Ajusta o espaçamento superior */
-}
-
-#image-car .car {
-    width: 60%; /* Reduz o tamanho da imagem para 60% do tamanho original */
-    max-width: 400px; /* Limita o tamanho máximo */
-    height: auto; /* Mantém a proporção da imagem */
 }
