@@ -64,7 +64,7 @@ main #sobre #conteudo{
 
 #sobre #car-image{
     width: 650px;
-
-
+    filter: saturate(0);
+    transform: scaleX(-1);
 }
 
