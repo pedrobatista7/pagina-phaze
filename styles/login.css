@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    background-color: #666666;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+.main-login {
+    display: flex;
+    flex-direction: column; /* Organiza a logo acima do container */
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaço entre a logo e o formulário */
+}
+
+.logo img {
+    width: 150px;
+}
+
+.container-page {
+    height: 500px;
+    width: 750px;
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px; /* Arredonda as bordas */
+
+}
+
+.card-cadastro{
+    background-color: rgb(37, 37, 37);
+    height: 100%;
+    width: 50%;
+    border-radius: 120px 40px 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.card-login{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
