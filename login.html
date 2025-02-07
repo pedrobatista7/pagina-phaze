@@ -7,33 +7,34 @@
     <link rel="stylesheet" href="styles/login.css">
 </head>
 <body>
-    <div class="main-login">
-        <div class="logo">
-            <a href="index.html"><img src="images/logo.png" alt="logo phaze"></a>
-        </div>
-
-        <div class="container-page">
-            <div class="card-login">
-                <div class="login">
-                    <h1>Login</h1>
-                    <p>venha fazer parte do time Phaze</p>
-                    <div class="login-group">
-                        <input type="text" id="usuario" name="usuario" placeholder="Usuário">
-                        <input type="password" id="senha" name="senha" placeholder="Senha">
+    <main class="container-login">
+        <div class="main-login">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo phaze"></a>
+            </div>
+            <div class="container-page">
+                <div class="card-login">
+                    <div class="login">
+                        <h1>Login</h1>
+                        <p>já faz parte do time Phaze? <br><strong class="negrito">faça seu login</strong></p>
+                        <div class="login-group">
+                            <input type="text" class="meu-input" name="usuario" placeholder="Usuário">
+                            <input type="password" class="meu-input" id="senha" name="senha" placeholder="Senha">
+                        </div>
+                            <button class="btn-login">Login</button>
                     </div>
-                        <button class="btn-login">Login</button>
+                </div>
+                <div class="card-cadastro">
+                    <div class="cadastro">
+                        <div class="cta-cadastro">
+                            <h1>Seja Bem vindo(a)</h1>
+                            <p>Não possui uma conta? <br><strong class="negrito">cadastre-se agora</strong></p>
+                        </div>
+                        <a href="#" class="btn-cadastrar">cadastrar</a>
+                    </div>
                 </div>
             </div>
-            <div class="card-cadastro">
-                <div class="cadastro">
-                    <div class="cta-cadastro">
-                        <h1>Seja Bem vindo(a)</h1>
-                        <p>Não possui uma conta? cadastre-se agora</p>
-                    </div>
-                    <a href="#" class="btn-cadastrar">cadastrar</a>
-                </div>
-            </div>
         </div>
-    </div>
+    </main>
 </body>
 </html>

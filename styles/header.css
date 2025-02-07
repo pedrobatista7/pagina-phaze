@@ -23,6 +23,7 @@ header{
 
 main{
     height: 92vh;
+
 }
 
 #logo{
@@ -50,7 +51,7 @@ main{
 }
 
 .nav-item a:hover{
-    opacity: 30%;
+    opacity: 15%;
 }
 
 #btn-login{
