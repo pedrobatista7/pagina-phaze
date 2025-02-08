@@ -34,7 +34,7 @@ body{
     
 }
 .main-login{
-    gap: 30px;
+    gap: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,17 +71,100 @@ body{
     justify-content: center;
     align-items: center;
     height: 100%;
+    h1{
+        font-weight: 600;
+    }
+    p{
+        padding-bottom: 20px;
+    }
+
 }
 .cadastro{
     display: flex;
     flex-direction: column;
     gap: 10px;
+    
 }
 .cadastro input{
-    height: 30px;
-    width: 180px;
+    height: 40px;
+    width: 250px;
     border-radius: 20px;
+    color: black;
 }
+.negrito{
+    font-weight: 500;
+}
+.cadastro-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn-cadastro{
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    background-color:rgb(54, 54, 54);
+    font-weight: 700;
+    border-radius: 10px;
+    outline: 1.5px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-cadastro:hover{
+    background-color: #fff;
+    color: rgb(54, 54, 54);
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-weight: 600;
+    }
+    p{
+        padding-bottom: 20px;
+    }
+}
+
+.btn-login{
+    /* display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 180px;
+    height: 40px;
+    background-color:rgb(54, 54, 54) ;
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    outline: 1.5px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    outline: 1.5px solid #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 2px solid black;
+}
+.btn-login:hover{
+    background-color: #fff;
+    color: rgb(54, 54, 54);
+
+}
+
+
 
 
 
