@@ -132,17 +132,6 @@ body{
 }
 
 .btn-login{
-    /* display: flex;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    width: 180px;
-    height: 40px;
-    background-color:rgb(54, 54, 54) ;
-    color: #fff;
-    border-radius: 10px;
-    text-decoration: none;
-    outline: 1.5px solid white; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,81 +150,21 @@ body{
 .btn-login:hover{
     background-color: #fff;
     color: rgb(54, 54, 54);
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* body{
-    height: 100vh;
-    background-color: #252525;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.input-itens::placeholder{
+    text-align: center;
+    letter-spacing: 1.5px ;
+    font-weight: 500;
 }
-.container-login{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+.input-itens {
+    text-align: center;
+    color: rgb(61, 60, 60); 
+    font-size: 18px; 
+    font-weight: 500;
+  }
 
-.container-page{
-    height: 500px;
-    width: 750px;
-}
-.logo img{
-    width: 150px;
-    
-}
-.main-login{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.container-login{
-    border-radius: 40px;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(54, 54, 54);
 
-    align-items: center;
-}
-.card-cadastro{
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    background-color: rgb(54, 54, 54);
-    height: 100%;
-    border-radius: 0px 40px 40px 0px;
-    
-}
-.card-login{
-    align-items: center;
-    background-color: #1d1d1d;
-    border-radius: 40px 120px 120px 40px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 50%;
-}
-.cadastro-group{
-    
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-}  */
+
+
+

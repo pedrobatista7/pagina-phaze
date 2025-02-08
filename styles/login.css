@@ -127,6 +127,7 @@ body {
 .meu-input::placeholder{
     text-align: center;
     font-weight: 500;
+    letter-spacing: 1.5px ;
 }
 
 .btn-login{
@@ -151,3 +152,8 @@ body {
     font-weight: 500;
 }
 
+.meu-input{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
