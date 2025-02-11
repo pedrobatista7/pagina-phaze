@@ -1,0 +1,11 @@
+.container-projetos{
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
